@@ -1,0 +1,9 @@
+plugin: nutanix.ncp.ntnx_prism_vm_inventory
+
+# here's the required stuff from https://galaxy.ansible.com/ui/repo/published/nutanix/ncp/content/inventory/ntnx_prism_vm_inventory/
+
+# nutanix_hostname:
+# nutanix_password:
+# nutanix_username: 
+
+
