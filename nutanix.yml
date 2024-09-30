@@ -6,4 +6,4 @@ plugin: nutanix.ncp.ntnx_prism_vm_inventory
 # nutanix_password:
 # nutanix_username: 
 
-
+# You don't need to define these variables here AT ALL. They are defined in AAP via the Custom Credentials section, which are then injected and environment variables as per the nutanix inventory plugin documentation.
