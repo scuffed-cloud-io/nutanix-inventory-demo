@@ -8,7 +8,7 @@ images:
 dependencies:
   galaxy:
     collections:
-    - nutanix.ncp.ntnx_prism_vm_inventory
+    - nutanix.ncp
   python:
   - ansible # This will install latest ansible
   - setuptools
