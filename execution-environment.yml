@@ -1,0 +1,21 @@
+---
+version: 3
+
+images:
+  base_image:
+    name: 'registry.redhat.io/ansible-automation-platform-24/ee-supported-rhel9:latest'
+
+dependencies:
+  galaxy:
+    collections:
+    - nutanix.ncp.ntnx_prism_vm_inventory
+  python:
+  - ansible # This will install latest ansible
+  - setuptools
+  - wheel
+  system:
+  - vim
+  # helpful for troubleshooting/editing
+
+options:
+  package_manager_path: /usr/bin/microdnf
